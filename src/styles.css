@@ -1,0 +1,161 @@
+body {
+  font-family: sans-serif;
+}
+
+#header {
+  padding: 20px 10px;
+  background-color: #F3F3F3;
+}
+
+#logo {
+  float:left;
+  padding: 30px 50px;
+  background-color: #FFF;
+  border:solid #000 1px;
+}
+
+#menue {
+  margin: 0 0 20px 0;
+  padding: 0;
+  border:solid #000 1px;
+  text-align: center;
+}
+
+#menue ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+  display: inline-flex;
+}
+
+#menue ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#menue ul > li > a {
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+  color: #666;
+}
+
+#menue ul > li > a:hover {
+  background-color: #f4f4f4;
+}
+
+#main {
+	height: auto;
+	overflow: hidden;
+}
+
+#navi {
+  float:left;
+  width: 250px;
+  margin: 0 20px 0 0;
+  padding: 0;
+  border:solid #000 1px;
+}
+
+#navi ul {
+  margin: 20px 0 100px 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#navi ul li {
+  margin: 0;
+  padding: 0;
+}
+
+#navi ul > li > a {
+  display: block;
+  padding: 10px 100px 10px 20px;
+  text-decoration: none;
+  color: #666;
+}
+
+#navi ul > li > a:hover {
+  background-color: #f4f4f4;
+}
+
+#content {
+  float: none; /* not needed, just for clarification */
+	/* the next props are meant to keep this block independent from the other floated one */
+	width: auto;
+	overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border:solid #000 0px;
+}
+
+.item {
+	height: auto;
+	overflow: hidden;
+  margin: 0 0 20px 0;
+}
+
+.blogpost {
+  float: none; /* not needed, just for clarification */
+	/* the next props are meant to keep this block independent from the other floated one */
+	width: auto;
+	overflow: hidden;
+  height: 210px;
+  margin: 0;
+  padding: 20px 10px;
+  border:solid #000 1px;
+}
+
+.blogimage {
+  float:left;
+  width: 400px;
+  height: 250px;
+  margin: 0 20px 0 0;
+  padding: 0;
+  border:solid lightgrey 1px;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M100 0 L0 100 ' stroke='lightgrey' stroke-width='0.5'/><path d='M0 0 L100 100 ' stroke='lightgrey' stroke-width='0.5'/></svg>");
+background-repeat:no-repeat;
+background-position:center center;
+background-size: 100% 100%, auto;
+}
+
+
+#footer {
+  margin: 20px 0 20px 0;
+  padding: 0;
+  border:solid #000 1px;
+}
+
+#footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#footer ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+      width: 20%;
+}
+
+#footer ul > li > a {
+display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-align: center;
+  color: #666;
+}
+
+#footer ul > li > a:hover {
+  background-color: #f4f4f4;
+}
